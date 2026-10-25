@@ -1,0 +1,99 @@
+table,th,td{
+    border: 4px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table{
+    width: 60%;
+}
+th,td{
+   border-color:gray;
+}
+.irin{
+    border: 6px solid black;
+}
+.irin th,td{
+    border-color: blue;
+
+}
+.p1{
+    border: 3px solid royalblue;
+    width: 400px;
+    margin: auto;
+}
+.p2{
+    border: 3px solid green;
+   max-width:400px ;
+   margin: auto;
+}
+h1{
+    text-align: center;
+    color: blue;
+    border: 7px solid maroon;
+    border-radius: 7px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+h2{
+    color: brown;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: right;
+    
+}
+p{
+    font-style: italic;
+}
+ 
+ img{
+    max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+ }
+.stud{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    margin: 100px auto;
+    position: relative;
+    animation-name: squar;
+    animation-duration: 4s;
+
+}
+@keyframes squar{
+    0%{background-color: brown;
+    left: 0;
+    right: 0;
+    }
+    25%{background-color: blue;
+    left: 0;
+    right: 0;
+    }
+    50%{background-color: green;
+    left: 500px;
+    right: 500px;
+    border-radius: 50%;
+    }
+    75%{
+        background-color: aqua;
+        left: 0;
+        right:500px ;
+    }
+    100%{background-color: slateblue;
+    left:0 ;
+    right: 0;
+    border-radius: 0px;
+    }
+}
+
